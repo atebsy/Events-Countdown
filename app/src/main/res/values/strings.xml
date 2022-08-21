@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Events Countdown</string>
+    <string name="tab_text_1">Coming events</string>
+    <string name="tab_text_2">Past Events</string>
+    <string name="event_tile">My next birthday party</string>
+    <string name="event_tile_hint">Enter your event title</string>
+    <string name="event_notes_hint">Add a note</string>
+    <string name="add_event_tile">Add new event</string>
+    <string name="select_date_hint">Click to select a date</string>
+    <string name="select_time_hint">Click to select time</string>
+    <string name="time_must_be_greater_error">Please select a time that is greater than the current time</string>
+    <string name="invalid_event_title">Please enter an event title</string>
+    <string name="selected_date_error">Invalid date</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="add_fab">Add New Event</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
