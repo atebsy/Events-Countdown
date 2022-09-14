@@ -14,6 +14,6 @@ A simple app that helps add event and view when and how much time before the eve
   </tr>
  </table>
  
- <b>Structure:</b> MVVM, Repositry pattern With SST principle
+ <b>Architecture:</b> MVVM, Repositry pattern With SST principle
  
  <b>Jet pack and other Libraries:</b> Room, Material,lifecycle, test, mockito, desugar, robolectric, junit, appcompat
