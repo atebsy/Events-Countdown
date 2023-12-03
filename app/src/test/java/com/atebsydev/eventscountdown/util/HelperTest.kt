@@ -17,7 +17,7 @@ class HelperTest {
 
 
     @Test
-    fun test_formatDateToCountDownTimer_shoul_return_empty_count_down() {
+    fun dateTimeHelper_formatDateToCountDownTimer_shouldReturnEmptyCountDown() {
         val yesterday = OffsetDateTime.now().minusDays(1)
         val expected = "-- -- -- ---"
 
@@ -27,7 +27,7 @@ class HelperTest {
     }
 
     @Test
-    fun test_formatOffsetDateTime_should_return_with_yesterday() {
+    fun dateTimeHelper_formatOffsetDateTime_shouldReturnYesterday() {
         val eventDateAndTime = OffsetDateTime.now().minusDays(1)
         val expected = "Yesterday at ${eventDateAndTime.format(DateTimeFormatter.ofPattern("HH:mm:ss a"))}"
 
@@ -37,7 +37,7 @@ class HelperTest {
     }
 
     @Test
-    fun test_formatOffsetDateTime_should_return_with_today() {
+    fun dateTimeHelper_formatOffsetDateTime_shouldReturnToday() {
         val eventDateAndTime = OffsetDateTime.now()
         val expected = "Today at ${eventDateAndTime.format(DateTimeFormatter.ofPattern("HH:mm:ss a"))}"
 
@@ -47,7 +47,7 @@ class HelperTest {
     }
 
     @Test
-    fun test_formatOffsetDateTime_should_return_with_tomorrow() {
+    fun dateTimeHelper_formatOffsetDateTime_shouldReturnTomorrow() {
         val today = OffsetDateTime.now()
         val eventDateAndTime = today.plusDays(1)
         val expected = "Tomorrow at ${eventDateAndTime.format(DateTimeFormatter.ofPattern("HH:mm:ss a"))}"
